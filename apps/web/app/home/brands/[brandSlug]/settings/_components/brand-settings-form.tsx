@@ -26,7 +26,7 @@ import {
   updateBrandAutomation,
   updateBrandConnections,
   updateBrandIdentity,
-} from '../../../_actions/brands.actions';
+} from '../../../../_actions/brands.actions';
 
 // ── Schemas ──────────────────────────────────────────────────────────────────
 
