@@ -2,8 +2,8 @@ import { notFound } from 'next/navigation';
 
 import { PageBody, PageHeader } from '@kit/ui/page';
 
-import { getBrandBySlug } from '../../../_actions/brands.actions';
-import { getArticle } from '../../../_actions/articles.actions';
+import { getBrandBySlug } from '../../../../_actions/brands.actions';
+import { getArticle } from '../../../../_actions/articles.actions';
 import { ContentWizard } from './_components/content-wizard';
 
 interface ArticlePageProps {

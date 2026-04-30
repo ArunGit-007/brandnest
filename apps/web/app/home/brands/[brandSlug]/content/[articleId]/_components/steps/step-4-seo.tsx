@@ -10,8 +10,8 @@ import { Input } from '@kit/ui/input';
 import { Label } from '@kit/ui/label';
 import { Textarea } from '@kit/ui/textarea';
 
-import type { Article, ResearchData, SeoMeta } from '../../../../../_actions/articles.actions';
-import { saveSeoStep } from '../../../../../_actions/articles.actions';
+import type { Article, ResearchData, SeoMeta } from '../../../../../../_actions/articles.actions';
+import { saveSeoStep } from '../../../../../../_actions/articles.actions';
 import { useAiSession } from '../hooks/use-ai-session';
 import { StepShell } from './step-shell';
 

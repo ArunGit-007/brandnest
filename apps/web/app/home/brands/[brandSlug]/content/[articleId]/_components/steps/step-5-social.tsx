@@ -9,8 +9,8 @@ import { Button } from '@kit/ui/button';
 import { Label } from '@kit/ui/label';
 import { Textarea } from '@kit/ui/textarea';
 
-import type { Article, ResearchData, SocialPostsData } from '../../../../../_actions/articles.actions';
-import { saveSocialStep } from '../../../../../_actions/articles.actions';
+import type { Article, ResearchData, SocialPostsData } from '../../../../../../_actions/articles.actions';
+import { saveSocialStep } from '../../../../../../_actions/articles.actions';
 import { useAiSession } from '../hooks/use-ai-session';
 import { StepShell } from './step-shell';
 

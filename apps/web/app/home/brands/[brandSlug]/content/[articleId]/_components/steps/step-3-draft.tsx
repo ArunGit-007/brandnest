@@ -13,8 +13,8 @@ import type {
   Article,
   OutlineData,
   ResearchData,
-} from '../../../../../_actions/articles.actions';
-import { saveDraftStep } from '../../../../../_actions/articles.actions';
+} from '../../../../../../_actions/articles.actions';
+import { saveDraftStep } from '../../../../../../_actions/articles.actions';
 import { useAiSession } from '../hooks/use-ai-session';
 import { StepShell } from './step-shell';
 

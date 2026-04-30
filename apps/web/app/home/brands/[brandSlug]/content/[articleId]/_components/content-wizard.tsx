@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { CheckCircle2, Circle, Loader2 } from 'lucide-react';
 import { cn } from 'tailwind-merge';
 
-import type { Article } from '../../../../_actions/articles.actions';
+import type { Article } from '../../../../../_actions/articles.actions';
 import { Step1Research } from './steps/step-1-research';
 import { Step2Outline } from './steps/step-2-outline';
 import { Step3Draft } from './steps/step-3-draft';

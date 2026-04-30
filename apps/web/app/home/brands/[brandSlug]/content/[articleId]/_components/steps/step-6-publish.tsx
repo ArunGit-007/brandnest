@@ -9,8 +9,8 @@ import { Badge } from '@kit/ui/badge';
 import { Button } from '@kit/ui/button';
 import { Card, CardContent } from '@kit/ui/card';
 
-import type { Article, SeoMeta } from '../../../../../_actions/articles.actions';
-import { markArticlePublished } from '../../../../../_actions/articles.actions';
+import type { Article, SeoMeta } from '../../../../../../_actions/articles.actions';
+import { markArticlePublished } from '../../../../../../_actions/articles.actions';
 import { StepShell } from './step-shell';
 
 interface Step6Props {

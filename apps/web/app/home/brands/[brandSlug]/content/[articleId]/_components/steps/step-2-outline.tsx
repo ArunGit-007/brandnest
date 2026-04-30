@@ -13,8 +13,8 @@ import type {
   OutlineData,
   OutlineSection,
   ResearchData,
-} from '../../../../../_actions/articles.actions';
-import { saveOutlineStep } from '../../../../../_actions/articles.actions';
+} from '../../../../../../_actions/articles.actions';
+import { saveOutlineStep } from '../../../../../../_actions/articles.actions';
 import { useAiSession } from '../hooks/use-ai-session';
 import { StepShell } from './step-shell';
 

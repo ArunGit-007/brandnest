@@ -14,8 +14,8 @@ import { Textarea } from '@kit/ui/textarea';
 import type {
   Article,
   ResearchData,
-} from '../../../../../_actions/articles.actions';
-import { saveResearchStep } from '../../../../../_actions/articles.actions';
+} from '../../../../../../_actions/articles.actions';
+import { saveResearchStep } from '../../../../../../_actions/articles.actions';
 import { useAiSession } from '../hooks/use-ai-session';
 import { StepShell } from './step-shell';
 
