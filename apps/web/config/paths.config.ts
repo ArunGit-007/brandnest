@@ -12,6 +12,13 @@ const PathsSchema = z.object({
   app: z.object({
     home: z.string().min(1),
     profileSettings: z.string().min(1),
+    brands: z.string().min(1),
+    brandDashboard: z.string().min(1),
+    brandContent: z.string().min(1),
+    brandContentNew: z.string().min(1),
+    brandSocial: z.string().min(1),
+    brandAnalytics: z.string().min(1),
+    brandSettings: z.string().min(1),
   }),
 });
 
@@ -27,6 +34,13 @@ const pathsConfig = PathsSchema.parse({
   app: {
     home: '/home',
     profileSettings: '/home/settings',
+    brands: '/home',
+    brandDashboard: '/home/brands/[brandSlug]',
+    brandContent: '/home/brands/[brandSlug]/content',
+    brandContentNew: '/home/brands/[brandSlug]/content/new',
+    brandSocial: '/home/brands/[brandSlug]/social',
+    brandAnalytics: '/home/brands/[brandSlug]/analytics',
+    brandSettings: '/home/brands/[brandSlug]/settings',
   },
 } satisfies z.infer<typeof PathsSchema>);
 

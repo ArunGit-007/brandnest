@@ -1,4 +1,4 @@
-import { Home, User } from 'lucide-react';
+import { Home, Layers, FileText, Calendar, BarChart2, Settings, User } from 'lucide-react';
 import { z } from 'zod';
 
 import { NavigationConfigSchema } from '@kit/ui/navigation-schema';
@@ -12,9 +12,9 @@ const routes = [
     label: 'common:routes.application',
     children: [
       {
-        label: 'common:routes.home',
+        label: 'Brands',
         path: pathsConfig.app.home,
-        Icon: <Home className={iconClasses} />,
+        Icon: <Layers className={iconClasses} />,
         end: true,
       },
     ],
